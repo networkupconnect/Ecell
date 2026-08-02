@@ -668,8 +668,9 @@ height:auto;
         railBtns.forEach(b=>b.classList.toggle('active', b.dataset.target === entry.target.id));
       }
     });
-  }, { threshold:0.5 });
-
+  }, { threshold:0 
+    rootMargin: "-45% 0px -45% 0px"
+});
   sections.forEach(id=>{
     const el = document.getElementById(id);
     if(el) observer.observe(el);
