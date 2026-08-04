@@ -373,6 +373,35 @@ height:auto;
 .poster-visual img{
 height:auto;
 }
+/* ---------- ABOUT ---------- */
+#about{
+    background:#0E1424;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.about-card{
+    background:var(--panel);
+    border:1px solid var(--panel-line);
+    border-radius:8px;
+    padding:30px;
+}
+
+.about-card h3{
+    color:var(--ignition);
+    font-family:var(--font-display);
+    margin-bottom:15px;
+}
+
+.about-card p{
+    color:var(--muted);
+    line-height:1.8;
+}
 
 }
   /* ---------- TEAM ---------- */
@@ -522,6 +551,48 @@ height:auto;
 
 </section>
 
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="section-head">
+        <div>
+            <div class="eyebrow">Stage 03 / About E-CELL</div>
+            <h2>About Us</h2>
+        </div>
+    </div>
+
+    <div class="about-grid">
+        <div class="about-card">
+            <h3>Vision</h3>
+            <p>
+                To foster an equitable, inclusive, non-discriminatory
+                university environment where all individuals,
+                irrespective of gender, caste, creed, ethnicity,
+                disability, or socio-economic background, can thrive.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <h3>Mission</h3>
+            <p>
+                Our mission is to build a strong entrepreneurial culture
+                by encouraging innovative ideas and teamwork across
+                different fields. We support students in developing
+                practical solutions, learning leadership skills, and
+                understanding funding opportunities to turn their ideas
+                into successful ventures. Through partnerships with
+                industry and academic institutions, we aim to create a
+                sustainable and supportive environment for innovation
+                and entrepreneurship.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- POSTERS -->
+<section id="poster">
+
 <!-- POSTERS -->
 <section id="poster">
   <div class="section-head">
@@ -564,7 +635,7 @@ height:auto;
   <div class="section-head">
     <div>
       <div class="eyebrow">Stage 01 / flight crew</div>
-      <h2>The Team</h2>
+      <h2>Team Steeltroops</h2>
     </div>
     <p class="section-note">The people running mission control</p>
   </div>
